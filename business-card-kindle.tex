@@ -1,0 +1,57 @@
+\documentclass{article}[11pt]
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{qrcode}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+% Define page size for Kindle
+\geometry{
+    paperwidth=9cm,
+    paperheight=12cm,
+     lmargin=0cm,
+    rmargin=1cm,
+    tmargin=1cm,
+    bmargin=1cm
+}
+
+\begin{document}
+\pagestyle{empty}
+\begin{minipage}{\textwidth}
+  \begin{center}
+    {\LARGE Greg Baker}
+    
+    \vspace{5mm}
+    
+    % QR Code
+    \qrcode[height=4cm]{https://linkedin.com/in/solresol}
+    
+    \vspace{5mm}
+
+    % Contact details
+    greg.baker@anu.edu.au \\
+    greg.baker@mq.edu.au \\
+    gregb@genius-of-crowds.com \\
+    gregb@ifost.org.au 
+    
+    \vspace{5mm}
+    {\small
+    % Dot points
+    %\begin{itemize}[left=0pt]
+    %\item
+      Lecturer in computational linguistics \\
+      Genius of Crowds prediction markets \\
+      AI strategy, procurement and development
+    %\item
+    %    \end{itemize}
+    }
+    
+    \vspace{5mm}
+    
+    (+61) 408 245 856
+\end{center}
+        \end{minipage}
+%\end{center}
+
+\end{document}
